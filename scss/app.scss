@@ -29,7 +29,7 @@ $theme-colors: (
   "success":    green,
   "info":       skyblue,
   "warning":    yellow,
-  "danger":     red,
+  "danger":     rgb(49, 17, 17),
   "light":      hsl(19, 100%, 96%),
   "dark":       black,
   "pink": hsl(19, 8%, 55%)
@@ -39,6 +39,7 @@ $theme-colors: (
 //font_install
 $font-family-sans-serif : "Poppins", sans-serif;
 $headings-font-family : "Lora", serif;
+
 
 
 
@@ -55,3 +56,28 @@ $headings-font-family : "Lora", serif;
 .btn i{
     vertical-align: middle;
 }
+.sub-title{
+    font-family: "Dancing Script", cursive;
+    color: hsl(19, 64%, 54%);
+    font-weight: bold;
+
+}
+.card-img{
+    transform: translateY(-40px);
+    // transition: card-animate 2s;
+}
+.leaf-img{
+    transform: rotate(40deg);
+}
+// .card-img:hover{
+//     transition: card-animate 5s;
+// }
+// @keyframes card-animate {
+//     from{
+//         transform: translateY(50px);
+//     }
+//     to{
+//         transform: translateY(10px);
+//     }
+    
+// }

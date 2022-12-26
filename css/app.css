@@ -37,7 +37,7 @@
   --bs-success: green;
   --bs-info: skyblue;
   --bs-warning: yellow;
-  --bs-danger: red;
+  --bs-danger: rgb(49, 17, 17);
   --bs-light: hsl(19deg, 100%, 96%);
   --bs-dark: black;
   --bs-pink: hsl(19deg, 8%, 55%);
@@ -46,7 +46,7 @@
   --bs-success-rgb: 0, 128, 0;
   --bs-info-rgb: 135, 206, 235;
   --bs-warning-rgb: 255, 255, 0;
-  --bs-danger-rgb: 255, 0, 0;
+  --bs-danger-rgb: 49, 17, 17;
   --bs-light-rgb: 255, 241, 235;
   --bs-dark-rgb: 0, 0, 0;
   --bs-pink-rgb: 149, 137, 131;
@@ -2888,20 +2888,20 @@ textarea.form-control-lg {
 }
 
 .btn-danger {
-  --bs-btn-color: #000;
-  --bs-btn-bg: red;
-  --bs-btn-border-color: red;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #ff2626;
-  --bs-btn-hover-border-color: #ff1a1a;
-  --bs-btn-focus-shadow-rgb: 217, 0, 0;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ff3333;
-  --bs-btn-active-border-color: #ff1a1a;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgb(49, 17, 17);
+  --bs-btn-border-color: rgb(49, 17, 17);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2a0e0e;
+  --bs-btn-hover-border-color: #270e0e;
+  --bs-btn-focus-shadow-rgb: 80, 53, 53;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #270e0e;
+  --bs-btn-active-border-color: #250d0d;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: red;
-  --bs-btn-disabled-border-color: red;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: rgb(49, 17, 17);
+  --bs-btn-disabled-border-color: rgb(49, 17, 17);
 }
 
 .btn-light {
@@ -3041,19 +3041,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-danger {
-  --bs-btn-color: red;
-  --bs-btn-border-color: red;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: red;
-  --bs-btn-hover-border-color: red;
-  --bs-btn-focus-shadow-rgb: 255, 0, 0;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: red;
-  --bs-btn-active-border-color: red;
+  --bs-btn-color: rgb(49, 17, 17);
+  --bs-btn-border-color: rgb(49, 17, 17);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(49, 17, 17);
+  --bs-btn-hover-border-color: rgb(49, 17, 17);
+  --bs-btn-focus-shadow-rgb: 49, 17, 17;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(49, 17, 17);
+  --bs-btn-active-border-color: rgb(49, 17, 17);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: red;
+  --bs-btn-disabled-color: rgb(49, 17, 17);
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: red;
+  --bs-btn-disabled-border-color: rgb(49, 17, 17);
   --bs-gradient: none;
 }
 
@@ -4696,12 +4696,12 @@ textarea.form-control-lg {
 }
 
 .alert-danger {
-  --bs-alert-color: #990000;
-  --bs-alert-bg: #ffcccc;
-  --bs-alert-border-color: #ffb3b3;
+  --bs-alert-color: #1d0a0a;
+  --bs-alert-bg: #d6cfcf;
+  --bs-alert-border-color: #c1b8b8;
 }
 .alert-danger .alert-link {
-  color: #7a0000;
+  color: #170808;
 }
 
 .alert-light {
@@ -5094,17 +5094,17 @@ textarea.form-control-lg {
 }
 
 .list-group-item-danger {
-  color: #990000;
-  background-color: #ffcccc;
+  color: #1d0a0a;
+  background-color: #d6cfcf;
 }
 .list-group-item-danger.list-group-item-action:hover, .list-group-item-danger.list-group-item-action:focus {
-  color: #990000;
-  background-color: #e6b8b8;
+  color: #1d0a0a;
+  background-color: #c1baba;
 }
 .list-group-item-danger.list-group-item-action.active {
   color: #fff;
-  background-color: #990000;
-  border-color: #990000;
+  background-color: #1d0a0a;
+  border-color: #1d0a0a;
 }
 
 .list-group-item-light {
@@ -6691,8 +6691,8 @@ textarea.form-control-lg {
 }
 
 .text-bg-danger {
-  color: #000 !important;
-  background-color: RGBA(255, 0, 0, var(--bs-bg-opacity, 1)) !important;
+  color: #fff !important;
+  background-color: RGBA(49, 17, 17, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-light {
@@ -6746,10 +6746,10 @@ textarea.form-control-lg {
 }
 
 .link-danger {
-  color: red !important;
+  color: rgb(49, 17, 17) !important;
 }
 .link-danger:hover, .link-danger:focus {
-  color: #ff3333 !important;
+  color: #270e0e !important;
 }
 
 .link-light {
@@ -10863,6 +10863,20 @@ textarea.form-control-lg {
 
 .btn i {
   vertical-align: middle;
+}
+
+.sub-title {
+  font-family: "Dancing Script", cursive;
+  color: hsl(19deg, 64%, 54%);
+  font-weight: bold;
+}
+
+.card-img {
+  transform: translateY(-40px);
+}
+
+.leaf-img {
+  transform: rotate(40deg);
 }
 
 /*# sourceMappingURL=app.css.map */
