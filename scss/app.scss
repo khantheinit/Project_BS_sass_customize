@@ -64,20 +64,21 @@ $headings-font-family : "Lora", serif;
 }
 .card-img{
     transform: translateY(-40px);
-    // transition: card-animate 2s;
+    
 }
 .leaf-img{
     transform: rotate(40deg);
 }
-// .card-img:hover{
-//     transition: card-animate 5s;
-// }
-// @keyframes card-animate {
-//     from{
-//         transform: translateY(50px);
-//     }
-//     to{
-//         transform: translateY(10px);
-//     }
-    
-// }
+.nav-link:hover{
+    color:  hsl(19, 64%, 54%);
+}
+.card-img img{
+    transform: translateY(-50px);
+    transition: 0.5s;
+}
+.card-img:hover img{
+    transform: translateY(-60px);
+}
+.btn-icon:hover i{
+    transform: translate(60px 60px);
+}
